@@ -1,15 +1,16 @@
-.mt-177 {
+@media screen and (min-width: 768px) 
+{
+    .mt-177 {
     margin-top: 177px;
-}
-
-.mt-88 {
+    }
+    .mt-88 {
     margin-top: 88px;
-}
-
-.mb-95 {
+    }
+    .mb-95 {
     margin-bottom: 95px;
+    }
 }
-
+    
 .bg-custom {
-    background: #F1F3FF;
-}
+    background: #f1f3ff;
+    }
