@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Button, Row, Col } from 'react-bootstrap';
 import {
     BsFacebook,
     BsInstagram,
@@ -6,6 +6,7 @@ import {
     BsFillEnvelopeAtFill,
     BsTwitch,
 } from 'react-icons/bs';
+import '../style/customColor.css';
 
 const Footer = (props) => {
     return (
@@ -65,7 +66,7 @@ const Footer = (props) => {
                                     href='#!'
                                     className='text-dark text-decoration-none'
                                 >
-                                    <BsFacebook style={{ color: '#2d00e1' }} />
+                                    <BsFacebook size={30} style={{ color: '#0D28A6' }} />
                                 </a>
                             </li>
                             <li className='me-4'>
@@ -73,7 +74,7 @@ const Footer = (props) => {
                                     href='#!'
                                     className='text-dark text-decoration-none'
                                 >
-                                    <BsInstagram style={{ color: '#2d00e1' }} />
+                                    <BsInstagram size={30} style={{ color: '#0D28A6' }} />
                                 </a>
                             </li>
                             <li className='me-4'>
@@ -81,7 +82,7 @@ const Footer = (props) => {
                                     href='#!'
                                     className='text-dark text-decoration-none'
                                 >
-                                    <BsTwitter style={{ color: '#2d00e1' }} />
+                                    <BsTwitter size={30} style={{ color: '#0D28A6' }} />
                                 </a>
                             </li>
                             <li className='me-4'>
@@ -89,8 +90,8 @@ const Footer = (props) => {
                                     href='#!'
                                     className='text-dark text-decoration-none'
                                 >
-                                    <BsFillEnvelopeAtFill
-                                        style={{ color: '#2d00e1' }}
+                                    <BsFillEnvelopeAtFill size={30}
+                                        style={{ color: '#0D28A6' }}
                                     />
                                 </a>
                             </li>
@@ -99,7 +100,7 @@ const Footer = (props) => {
                                     href='#!'
                                     className='text-dark text-decoration-none'
                                 >
-                                    <BsTwitch style={{ color: '#2d00e1' }} />
+                                    <BsTwitch size={30} style={{ color: '#0D28A6' }} />
                                 </a>
                             </li>
                         </ul>

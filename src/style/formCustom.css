@@ -1,134 +1,16 @@
 .custom-form{
-    position: absolute;
-    z-index: 3;
+    position: relative;
+    z-index: 1;
+    top: 64%;
+    left: 15%;
+    transform: translate(-15%, -50%);
 }
-@media screen and (min-width: 1700px) and (max-width: 1900px) {
-    .custom-form {
-        top: 64%;
-        left: 28%;
-        transform: translate(-15%, -50%);
-    }
+.custom-form-list{
+    position: relative;
+    top: 80%;
+    left: 15%;
+    transform: translate(-15%, -50%);
 }
-@media screen and (min-width: 1551px) and (max-width: 1699px) {
-    .custom-form {
-        top: 65%;
-        left: 28%;
-        transform: translate(-15%, -50%);
-    }
-}
-@media screen and (min-width: 1451px) and (max-width: 1550px) {
-    .custom-form {
-        top: 65%;
-        left: 28%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1400px) and (max-width: 1450px) {
-    .custom-form {
-        top: 64%;
-        left: 28%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1351px) and (max-width: 1399px) {
-    .custom-form {
-        top: 62%;
-        left: 25%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1309px) and (max-width: 1350px) {
-    .custom-form {
-        top: 60%;
-        left: 25%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1263px) and (max-width: 1308px) {
-    .custom-form {
-        top: 60%;
-        left: 26%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1262px) {
-    .custom-form {
-        top: 58%;
-        left: 24%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1150px) and (max-width: 1199px) {
-    .custom-form {
-        top: 56%;
-        left: 23%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1149px) {
-    .custom-form {
-        top: 55%;
-        left: 23%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 1050px) and (max-width: 1099px) {
-    .custom-form {
-        top: 53%;
-        left: 22%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 878px) and (max-width: 1049px) {
-    .custom-form {
-        top: 70%;
-        left: 23%;
-        transform: translate(-15%, -50%);
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 877px) {
-    .custom-form {
-        top: 78%;
-        left: 23%;
-        transform: translate(-15%, -50%);
-    }
-}
-@media screen and (min-width: 520px) and (max-width: 767px) {
-    .custom-form {
-        top: 92%;
-        left: 23%;
-        transform: translate(-15%, -50%);
-    }
-}
-@media screen and (min-width: 425px) and (max-width: 521px) {
-    .custom-form {
-        top: 80%;
-        left: 25%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 424px) {
-    .custom-form {
-        top: 80%;
-        left: 25%;
-        transform: translate(-15%, -50%);
-    }
-}
-
-@media screen and (min-width: 200px) and (max-width: 319px) {
-    .custom-form {
-        top: 80%;
-        left: 25%;
-        transform: translate(-15%, -50%);
-    }
+.custom-shadow{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 12px 20px 4px;
 }

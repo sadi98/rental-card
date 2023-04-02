@@ -2,6 +2,7 @@ import { Row, Col, Card, Button, Image } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import car from '../assets/images/car.png';
 import '../style/pageHeader.css';
+
 const PageHeader = ({ showButton = true }) => {
 
     const navigate = useNavigate();
@@ -37,14 +38,13 @@ const PageHeader = ({ showButton = true }) => {
                                     src={car}
                                     alt='card'
                                     className='img-fluid position-relative z-index-1'
-                                    style={{ zIndex: 2 }}
+                                    style={{ zIndex: 1 }}
                                 />
                             </Card.Body>
                             <Card.Footer
                                 className=' bg-primary position-absolute bottom-0 start-0 w-100'
                                 style={{
                                     height: '60%',
-                                    zIndex: 1,
                                     borderTopLeftRadius: '10% 30%',
                                 }}
                             ></Card.Footer>
