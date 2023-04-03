@@ -48,3 +48,19 @@
 .bg-cs-success{
     background-color: #5CB85F;
 }
+
+.tombol-prev:hover,
+.tombol-next:hover {
+  background-color: #5CB85F;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.tombol-prev:active,
+.tombol-next:active {
+  background-color: #5CB85F;
+  color: white;
+  border: none;
+  outline: none;
+}

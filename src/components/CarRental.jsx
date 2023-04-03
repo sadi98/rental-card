@@ -1,7 +1,9 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import '../style/carRental.css';
+import { useNavigate } from 'react-router-dom';
 
 const CarRental = () => {
+    const searching = useNavigate();
     return (
         <Container className='mt-5 mb-5'>
             <Row className='justify-content-center'>
@@ -16,7 +18,7 @@ const CarRental = () => {
                                 adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.{' '}
                             </p>
-                            <Button variant='success'>Mulai Sewa Mobil</Button>
+                            <Button variant='success' onClick={ () => searching('/search')}>Mulai Sewa Mobil</Button>
                         </Card.Body>
                     </Card>
                 </Col>

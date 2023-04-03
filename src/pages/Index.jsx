@@ -17,32 +17,32 @@ const Index = () => {
             </div>
             {/* End Navbar  */}
             {/* PageHeader  */}
-            <div>
+            <section id="pageheader">
                 <PageHeader />
-            </div>
+            </section>
             {/* End PageHeader  */}
             {/* OurService  */}
-            <div>
+            <section id="ourservices">
                 <OurService />
-            </div>
+            </section>
             {/* End OurService  */}
             {/* WhyUs  */}
-            <div>
+            <section id="whyus">
                 <WhyUs />
-            </div>
+            </section>
             {/* End WhyUs  */}
             {/* Testimonial  */}
-            <div>
+            <section id="testimonial">
                 <Testimonial />
-            </div>
+            </section>
             {/* End Testimonial  */}
             {/* CarRental  */}
-            <div>
+            <section id="carrental">
                 <CarRental />
-            </div>
+            </section>
             {/* End CarRental  */}
             {/* Faq  */}
-            <div>
+            <div id="faq">
                 <Faq />
             </div>
             {/* End Faq  */}

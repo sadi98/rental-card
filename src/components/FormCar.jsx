@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Container, Col, Card, Form, Button  } from 'react-bootstrap';
 import { useState } from 'react';
-
+import '../style/customCard.css';
 // const API_URL = 'https://bootcamp-rent-cars.herokuapp.com/customer/v2/car';
 const API_URL = 'http://127.0.0.1:8000/customer/v2/car';
 const PRICE_OPTION = {

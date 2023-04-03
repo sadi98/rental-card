@@ -5,7 +5,7 @@ import '../style/pageHeader.css';
 
 const PageHeader = ({ showButton = true }) => {
 
-    const navigate = useNavigate();
+    const searching = useNavigate();
     return (
         <div className='bg-custom'>
                 <Row className='justify-content-end'>
@@ -21,7 +21,7 @@ const PageHeader = ({ showButton = true }) => {
                                         selama 24 jam.
                                         <br/>
                                 {showButton && (
-                                    <Button variant='success' onClick={ () => navigate('/search')}>
+                                    <Button variant='success' onClick={ () => searching('/search')}>
                                         Mulai Sewa Mobil
                                     </Button>
                                 )}

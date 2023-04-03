@@ -4,6 +4,7 @@ import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 import imgphoto from '../assets/images/img_photo.png';
 import imgphotos from '../assets/images/img_photos.png';
 import { useState } from 'react';
+import '../style/customColor.css';
 
 const Testimonial = () => {
     const [index, setIndex] = useState(0);
